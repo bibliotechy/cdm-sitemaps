@@ -1,0 +1,12 @@
+php_value max_execution_time 2000
+php_value date.timezone "America/New_York"
+
+RewriteEngine On
+RewriteRule ^(.*/)?\.git+ - [F,L]
+ErrorDocument 403 "Access Forbidden"
+
+<FilesMatch "^(config\.xml|sitemap\.log)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
+

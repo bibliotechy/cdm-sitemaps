@@ -203,7 +203,7 @@ try {
 	}
 	else {
 		$body = processRequest($http, $service . $query);
-		createSitemapIndex($public, $body, $http, $service);
+		createSitemapIndex($public, $body, $http, $service, $website, $config->path);
 	}
 }
 catch (Zend_Http_Client_Exception $details) {
