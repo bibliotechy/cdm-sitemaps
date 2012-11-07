@@ -1,4 +1,16 @@
-cdm-sitemaps (version 0.0.2)            https://github.com/ksclarke/cdm-sitemaps
+cdm-sitemaps (version 0.0.2)            https://github.com/bibliotechy/cdm-sitemaps
+
+=================================================================================
+UPDATE
+=================================================================================
+
+This is a modified version of Kevis Clarke's cdm-sitemap script. The script has 
+been updated to work with locally hosted versions of ContentDM. Some of the 
+settings, such as read only account, are no longer required.
+
+This script is no longer maintained as I no longer work on ContentDM. But if you
+have quesions, I might be able to answer them. 
+
 
 ================================================================================
 INTRODUCTION
